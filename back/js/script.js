@@ -86,9 +86,3 @@ function takeTheNumbersEquel(){
     calculatorBoard.innerHTML = eval(answerOfCalc);
     stringData = calculatorBoard.innerHTML;
 }
-
-
-
-
-
-
