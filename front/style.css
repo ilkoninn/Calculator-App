@@ -31,9 +31,6 @@ body{
     background-color: lightgreen;
     border-radius: 5px;
 }
-input:focus{
-    outline: none;
-}
 
 .container{
     border: 5px solid red;
