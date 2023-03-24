@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 5px solid black; */
+    background-color: yellow;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+.container .name{
+    margin-top: -60px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .answer{
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 55px;
+    height: 80px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.container{
+    border: 5px solid red;
+    border-radius: 25px;
+    background: white;
+    padding: 70px;
+    margin: 15px;
+    height: 70vh;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.container .first,
+.second, .third, .fourth{
+    display: flex;
+    justify-content: center;
+}
+
+.container .remove button{
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    width: 485px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.container .btn-7,
+.container .btn-4,
+.container .btn-1,
+.container .btn-0,
+.container .btn-8,
+.container .btn-5,
+.container .btn-2,
+.container .btn-point,
+.container .btn-9,
+.container .btn-6,
+.container .btn-3,
+.container .btn-equel,
+.container .btn-plus,
+.container .btn-minus,
+.container .btn-divis,
+.container .btn-mult{
+    margin: 20px;
+    font-size: 25px;
+    border: none;
+    width: 100%;
+    background-color: gainsboro;
+}
+.container .first button,
+.container .second button,
+.container .third button,
+.container .fourth button{
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}

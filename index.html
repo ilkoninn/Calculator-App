@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/171352_calculator_icon.png">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="name">Calculator App</div>
+
+        <div class="answer" id="answer"><span id="span"></span></div>
+
+        <div class="remove">
+            <button onclick="takeTheNumbersRemove()" class="remove" id="remove">C</button>
+        </div>
+
+        <div class="first">
+            <button onclick="takeTheNumbers7()" class="btn-7" id="7" value="7">7</button>
+            <button onclick="takeTheNumbers8()" class="btn-8" id="8" value="8">8</button>
+            <button onclick="takeTheNumbers9()" class="btn-9" id="9" value="9">9</button>
+            <button onclick="takeTheNumbersPlus()"class="btn-plus" id="plus" value="+">+</button>
+        </div>
+        <div class="second">
+            <button onclick="takeTheNumbers4()" class="btn-4" id="4" value="4">4</button>
+            <button onclick="takeTheNumbers5()" class="btn-5" id="5" value="5">5</button>
+            <button onclick="takeTheNumbers6()" class="btn-6" id="6" value="6">6</button>
+            <button onclick="takeTheNumbersMinus()" class="btn-minus" id="minus" value="-">-</button>            
+        </div>
+        <div class="third">
+            <button onclick="takeTheNumbers1()" class="btn-1" id="1" value="1">1</button>
+            <button onclick="takeTheNumbers2()" class="btn-2" id="2" value="2">2</button>
+            <button onclick="takeTheNumbers3()" class="btn-3" id="3" value="3">3</button>
+            <button onclick="takeTheNumbersMult()" class="btn-mult" id="mult" value="*">*</button>
+            
+        </div>
+        <div class="fourth">
+            <button onclick="takeTheNumbers0()" class="btn-0" id="0" value="0">0</button>
+            <button onclick="takeTheNumbersPoint()" class="btn-point" id="point" value=".">.</button>
+            <button onclick="takeTheNumbersDivis()" class="btn-divis" id="divis" value="/">/</button>
+            <button onclick="takeTheNumbersEquel()" class="btn-equel" id="equel">=</button>
+        </div>
+            
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
